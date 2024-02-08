@@ -1,25 +1,28 @@
 import React from 'react';
 import {FaGithub} from "react-icons/fa";
 import {CgFileDocument} from "react-icons/cg";
-
+import GooglePlayButton from 'react-mobile-store-button'
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
   const desc = {
-    TindogDesc : "This website is a landing page of Tinder but for dogs. It is a responsive website which was made to understand Bootstrap. I also learned how to host my project on Github and then how to deploy that project using Github pages.",
-    TindogGithub : "https://github.com/DevanshSahni/tindog",
-    TindogWebsite : "https://devanshsahni.github.io/tindog/",
+    MMCalendarDesc: "A Calendar with Myanmar versus English Date. It can be calculated between Myanmar traditional date and English Date. Users can add notes, events, and memories to the note features. Utilized Kotlin, MVVM, Room, Firebase SDK, an ironSource SDK.",
+    MMCalendarPlayStore: "https://play.google.com/store/apps/details?id=com.nanhm.mmcalendar",
 
-    RogFreeDesc : "A website that shows you over seven specialized yoga postures for specific diseases or health problems. This was a group project made in a team of two for a 36-hour-long online hackathon named Hackodisha 2.0.",
-    RogFreeGithub : "https://github.com/DevanshSahni/Rog-Free",
-    RogFreeWebsite : "https://devanshsahni.github.io/Rog-Free/",
+    ENGMMDictionaryDesc: "An offline dictionary can be able to search the explanation of each English word in Myanmar language. It also provides word of the day; the user can memorize at least one English word randomly every day. Utilized Kotlin, MVVM, Room, Google Speech Recognition, Firebase SDK and ironSource SDK.",
+    ENGMMDictionaryPlayStore: "https://play.google.com/store/apps/details?id=com.peteaung.engmmdictionary",
 
-    NewsletterDesc:"A newsletter signup site made using Mailchimp API where the signups can be monitored from the MailChimp account. This project was made to understand API integration, environment variables and vercel deployment.",
-    NewsletterGithub:"",
-    NewsletterWebsite:"https://newsletter-signup-teal.vercel.app/",
-    
-    WigglesDesc:"An innovative pet management web app enabling pet parents to create unique pet IDs, securely store and share vaccination records, and generate QR codes for pet profiles, enhancing safety.",
-    WigglesGithub:"https://github.com/DevanshSahni/Wiggles",
-    WigglesWebsite:"https://wiggles.vercel.app/",
+    DhammaDesc: "A religious app for Buddhists. It helps for those who are interested in reading the Dhamma Script and listening to audio from Buddhist Monks, Abidhama Teacher, Mediation Trainer, etc. Users can also read and listen offline by downloading eBooks, and MP3 Audios. Utilize Kotlin, MVVM, Room, Firebase SDK, and ironSource SDK.",
+    DhammaPlayStore:"https://play.google.com/store/apps/details?id=com.haymarsan.dhammapiya",
+
+    MMENGDictionaryDesc: "A dictionary app that allow user to search the translation of each Burmese word into English. It's useful for those who learn English vs Burmese Language. Utilized Kotlin, MVVM, Room, Google Speech Recognition, Firebase SDK and ironSource SDK.",
+    MMENGDictionaryPlayStore: "https://play.google.com/store/apps/details?id=com.hms.myanmar_englishdictionarytranslator",
+
+    MMThetponeDesc: "A Myanmar Spelling App for those who learning Myanmar Word. It can be searched and checked the Myanmar over 200 provided words. A spelling Quiz Game is provided to practice the correct spelling. Utilized Kotlin, MVVM, Room, Firebase SDK, and ironSource SDK.",
+    MMThetponePlayStore: "https://play.google.com/store/apps/details?id=com.ottsolution.myanmarthatpone",
+
+    MyHealthDesc: "An application provides the features: health information and knowledges, BMI Calculator, Due Date Calculator, and full descriptions of each result. Utilized Kotlin, MVVM, Room, Retrofit, Firebase SDK, and ironSource SDK.",
+    MyHealthPlayStore: "https://play.google.com/store/apps/details?id=com.peteaung.myhealth"
+
   }
 
   let show ='';
@@ -37,13 +40,14 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
             {desc[projectName + 'Desc']}
             <br />
 
-            <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank'>
-              <button className='projectbtn'><FaGithub/> Github</button>
-            </a>
-
-            <a href={desc[projectName + 'Website']} target='_blank'>
-              <button className='projectbtn'><CgFileDocument/> Demo</button>
-            </a>
+            
+            <div>
+              <GooglePlayButton
+                className={"custom-style"}
+                store="android"
+                url={desc[projectName+"PlayStore"]}
+                linkProps={{ title: 'Android Store Button' }}/>
+            </div>
         </div>
     </div>
   )

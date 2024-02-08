@@ -249,6 +249,12 @@ b{
   width: 400px;
   height: 400px;
 }
+.about-activity {
+  list-style: none !important;
+  text-align: left !important;
+  padding-left: 50px !important;
+  line-height: 30px;
+}
 
 @media(max-width:900px){
   .HomePage{
