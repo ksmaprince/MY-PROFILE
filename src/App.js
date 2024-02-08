@@ -30,7 +30,7 @@ function App() {
         <HashLoader
           color={'#9067C6'}
           loading={true}
-          size={100}
+          size={200}
           aria-label="Loading Spinner"
           data-testid="loader"
         />

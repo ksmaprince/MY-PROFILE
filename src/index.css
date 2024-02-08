@@ -265,6 +265,22 @@ b{
     margin: auto;
     margin-bottom: 50px;
   }
+  .avatarBox{
+    width: 300px;
+    border: 5px solid #63186b;
+    border-radius: 15px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    line-height: 22px;
+    
+    margin: 0px 25px 50px 25px;
+    transition: 0.5s;
+  }
+  .avatarBox:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px 0 #431f47;
+  }
 }
 
 @media(max-width: 500px) {
@@ -286,6 +302,22 @@ b{
     width: 300px;
     height: 300px;
     margin-bottom: 0px;
+  }
+  .avatarBox{
+    width: 250px;
+    border: 5px solid #63186b;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    line-height: 22px;
+    
+    margin: 0px 25px 50px 25px;
+    transition: 0.5s;
+  }
+  .avatarBox:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px 0 #431f47;
   }
 }
 

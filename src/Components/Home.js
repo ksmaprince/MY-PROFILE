@@ -16,12 +16,6 @@ const Home = () => {
           <h1>I'M <b>KHUN AUNG</b></h1>
           <Typed/>   
         </div>
-
-        {/* <Lottie 
-          className="illustration" 
-          animationData={CoderBoy} 
-          loop={true} 
-        /> */}
         <img className='avatarBox' src={Khun} alt=""/>
         
       </div>
@@ -42,7 +36,6 @@ const Home = () => {
           </p>
         </div>
         <Tilt>
-          {/* <img className='Avatar' src={Avatar} alt="" /> */}
           <Lottie 
           className="illustration" 
           animationData={Mobile} 
