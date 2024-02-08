@@ -221,6 +221,23 @@ b{
   padding-top: 10px;
 }
 
+.avatarBox{
+  width: 350px;
+  border: 5px solid #63186b;
+  border-radius: 20px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  line-height: 22px;
+  
+  margin: 0px 25px 50px 25px;
+  transition: 0.5s;
+}
+.avatarBox:hover{
+  transform: scale(1.25);
+  box-shadow: 0 4px 10px 0 #431f47;
+}
+
 .TypeEffect{
   padding: 25px 0px;
   font-weight: 600;

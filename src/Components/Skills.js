@@ -1,12 +1,23 @@
 import React from 'react'; 
 import { CgCPlusPlus } from "react-icons/cg";
-import {FaReact, FaPython, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap} from "react-icons/fa";
+import {FaReact, FaGitAlt, FaGithub, FaNpm, FaFigma, FaBootstrap, FaJava} from "react-icons/fa";
 import {DiNodejs, DiJavascript1} from "react-icons/di";
-import {SiExpress, SiMongodb, SiPostman, SiVercel} from "react-icons/si";
+import {SiFirebase,SiJetpackcompose, SiExpress, SiMongodb, SiPostman, SiVercel, SiKotlin, SiAndroidstudio, SiMysql, SiIntellijidea, SiJira} from "react-icons/si";
+import { IoLogoAndroid } from "react-icons/io";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
 
 const Skills = ({skill}) => {
     const icon = {
-        'C++': <CgCPlusPlus/>,
+        Android: <IoLogoAndroid/>,
+        Compose: <SiJetpackcompose/>,
+        Kotlin: <SiKotlin/>,
+        Java: <FaJava/>,
+        AndroidStudio: <SiAndroidstudio/>,
+        MySQL: <SiMysql/>,
+        IntelliJ: <SiIntellijidea/>,
+        Jira:<SiJira/>,
+        Firebase:<SiFirebase/>,
+        Playstore: <IoLogoGooglePlaystore/>,
         Postman: <SiPostman/>,
         React: <FaReact/>,
         Javascript: <DiJavascript1/>,
