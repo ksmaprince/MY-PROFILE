@@ -23,6 +23,8 @@ const Resume = () => {
           <Page pageNumber= {1} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
           <br/>
           <Page pageNumber= {2} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
+          <br/>
+          <Page pageNumber= {3} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
       </Document>
 
       <a href={pdf} target='_blank' download="Khun's Resume">

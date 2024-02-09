@@ -2,6 +2,7 @@ import React from 'react';
 import {FaGithub, FaLinkedin} from "react-icons/fa";
 import {GrMail} from "react-icons/gr";
 import {SiLeetcode} from "react-icons/si"
+import { FaMedium } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -13,6 +14,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/khunsma/" target='_blank'><FaLinkedin/></a>
         <a href='mailTo:khunsoemoeaung.henry@gmail.com' target='_blank'><GrMail/></a>
         <a href="https://leetcode.com/petiaung50/" target="_blank"><SiLeetcode/></a>
+        <a href="https://medium.com/@khunsoemoeaung" target='_blank'><FaMedium/></a>
       </div>
     </footer>
   )

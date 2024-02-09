@@ -2,7 +2,7 @@ import React from 'react';
 import Skills from './Skills.js';
 import Tilt from 'react-parallax-tilt';
 import Lottie from "lottie-react"
-import CoderGuy from '../LottieFiles/coder-man.json'
+import CoderGuy from '../LottieFiles/coder-man2.json'
 import { ImPointRight } from "react-icons/im";
 import GitHubCalendar from 'react-github-calendar';
 
@@ -22,7 +22,7 @@ const About = () => {
           <p>
             Hi, my name is <b>KHUN AUNG</b> and I am from Fairfield, Iowa, USA.
             I'm a <b>Software Engineer (Android Developer)</b> and have completed on-campus studies and currently taking distance courses to complete a <b>Master's Degree in Computer Science</b>. <br/><br/>
-            I have 5 years of experiences in developing Android Mobile Applications in financial industry.
+            I have <b>5 years of experiences</b> in developing Android Mobile Applications in financial industry.
             I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
           </p>

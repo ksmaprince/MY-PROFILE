@@ -223,7 +223,7 @@ b{
 
 .avatarBox{
   width: 350px;
-  border: 5px solid #63186b;
+  border: 5px solid #00AAFF;
   border-radius: 20px;
   text-align: center;
   letter-spacing: 0.5px;
@@ -273,7 +273,7 @@ b{
   }
   .avatarBox{
     width: 300px;
-    border: 5px solid #63186b;
+    border: 5px solid #00AAFF;
     border-radius: 15px;
     text-align: center;
     letter-spacing: 0.5px;
@@ -311,7 +311,7 @@ b{
   }
   .avatarBox{
     width: 250px;
-    border: 5px solid #63186b;
+    border: 5px solid #00AAFF;
     border-radius: 10px;
     text-align: center;
     letter-spacing: 0.5px;
@@ -361,6 +361,35 @@ b{
   width: 280px;
 }
 
+.RecentWorkPage{
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 80vh;
+  padding: 25px;
+}
+
+.RecentWorkText{
+  width: 50%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+  padding: 50px;
+}
+.RecentWorkTextHeading{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.4px;
+}
+
+.porjectDesc{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 50px;
+  letter-spacing: 1.2px;
+}
+
 @media(max-width:900px){
   .AboutPage{
     display: block;
@@ -383,6 +412,24 @@ b{
     width: 200px;
     margin-bottom: 75px;
   }
+
+  .RecentWorkPage{
+    display: block;
+    min-height: 70vh;
+    padding: 25px;
+  }
+  
+  .RecentWorkText{
+    display: inline-block;
+    width: 85%;
+    letter-spacing: 0.6px;
+    padding: 30px;
+  }
+  .RecentWorkTextHeading{
+    font-size: 26px;
+    padding-bottom: 10px;
+  }
+  
 }
 
 /* Skills section */
@@ -394,14 +441,14 @@ b{
 }
 
 .SkillBox{
-  width: max(15%,150px);
-  height: 150px;
+  width: max(15%,80px);
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0px 25px 25px 0px;
   border: 3px solid #431f47;
-  font-size: 64px;
+  font-size: 50px;
   border-radius: 5px;
   transition: 0.5s;
 }
@@ -476,6 +523,13 @@ b{
   display: block;
   width: 100%;
   margin: 20px 0px;
+}
+
+.projectDesc{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 30px;
+  letter-spacing: 1.2px;
 }
 
 .projectbtn{
