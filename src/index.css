@@ -501,6 +501,11 @@ b{
   margin: 25px 5%;
 }
 
+a.Link{
+  color: #00AAFF;
+  font-weight: 900;
+}
+
 .projectBox{
   width: 350px;
   border: 3px solid #431f47;

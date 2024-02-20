@@ -9,11 +9,8 @@ import MyHealthImage from '../images/MyHealthApp.png'
 import CoderGuy from '../LottieFiles/Coder-Guy2.json'
 import Tilt from 'react-parallax-tilt';
 import Lottie from "lottie-react"
-import { ImPointRight } from "react-icons/im";
 import Mobile from '../LottieFiles/Mobile.json'
-import GooglePlayButton from 'react-mobile-store-button'
 import AcademicProjectGuy from '../LottieFiles/academic_project1.json'
-import UniversityLife from '../LottieFiles/university-life.json'
 
 const Projects = () => {
   return (
@@ -44,22 +41,19 @@ const Projects = () => {
           </p><br/>
           <p>
           <b>KBZConnect</b>: Mobile App that allows the bank customer to search the nearby branches and ATM locations and currency exchange rates.
-          <br/>
-          <a href='https://play.google.com/store/apps/details?id=com.kbzbank.kbzconnect&hl=en_US&gl=US' target='_blank'>[See on Google Play]</a>
+          <a className="Link" href='https://play.google.com/store/apps/details?id=com.kbzbank.kbzconnect&hl=en_US&gl=US' target='_blank'> See on Google Play</a>
           
           </p><br/>
           <p>
           <b>mBanking</b>: A banking app that allows the user to view account balances & transactions, transfer money, and pay bills from the mobile device, etc.
-          <br/>
-          <a href='https://play.google.com/store/apps/details?id=com.ofss.fcdb.mobile.android.phone.kbz.launcher&hl=en_US&gl=US' target='_blank'>[See on Google Play]</a>
+          <a className="Link" href='https://play.google.com/store/apps/details?id=com.ofss.fcdb.mobile.android.phone.kbz.launcher&hl=en_US&gl=US' target='_blank'> See on Google Play</a>
           
           </p>
         </div>
           <div className='RecentWorkText'>
           <p>
           <b>KBZ Pay</b>:A mobile wallet app along with banking functions that is simple and convenient to transact money in Myanmar. I was responsible for deploying the app to the Play Store, Xiaomi, Huawei, and the internal app server.
-          <br/>
-          <a href='https://play.google.com/store/apps/details?id=com.kbzbank.kpaycustomer&hl=en_US&gl=US' target='_blank'>[See on Google Play]</a>
+          <a className="Link" href='https://play.google.com/store/apps/details?id=com.kbzbank.kpaycustomer&hl=en_US&gl=US' target='_blank'> See on Google Play</a>
           
           </p><br/>
           <p>
@@ -101,12 +95,16 @@ const Projects = () => {
         <div className='RecentWorkText'>
           <p>
           <b>Library Management System</b>: A desktop application that can manage the daily functions of a library. I was a team leader in this project. I prepared the project documents and developed desktop UI screens. 
+          <a className="Link" href='https://github.com/ksmaprince/LibraryMangementSystem' target='_blank'> See on Github</a>
           <br/><br/>
           <b>Case Management System</b>: A web application for the lawyer. Working with a team, I was a backend developer in this project, developing the backend webservice APIs. 
+          <a className="Link" href='' target='_blank'> See on Github</a>
           <br/><br/>
           <b>Product Management System</b>: A CRUD Web application project to manage product stock. Working with a team. I was a front-end developer and developed web page screens for some features. 
+          <a className="Link" href='https://github.com/ksmaprince/Product-Management-System' target='_blank'> See on Github</a>
           <br/><br/>
           <b>Restaurant Management System</b>: A hybrid mobile application project using React Native Technology. It can be installed on Android and iOS mobile devices. I was a team leader and worked both front-end and back-end. In front-end I developed mobile screens user interface (UI) using React Native framework, Figma for UI/UX. I also developed the backend web service API for the project using NodeJS, MongoDB and Firebase. 
+          <a className="Link" href='https://github.com/ksmaprince/Restaurant-Management-App' target='_blank'> See on Github</a>
           <br/>
           </p>
         </div>

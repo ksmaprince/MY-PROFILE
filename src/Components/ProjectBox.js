@@ -1,6 +1,4 @@
-import React from 'react';
-import {FaGithub} from "react-icons/fa";
-import {CgFileDocument} from "react-icons/cg";
+import React from 'react'
 import GooglePlayButton from 'react-mobile-store-button'
 
 const  ProjectBox = ({projectPhoto, projectName}) => {
