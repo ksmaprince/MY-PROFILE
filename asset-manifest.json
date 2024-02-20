@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MY-PROFILE/static/css/main.71d05dd5.css",
-    "main.js": "/MY-PROFILE/static/js/main.a25e4412.js",
+    "main.css": "/MY-PROFILE/static/css/main.caaa476c.css",
+    "main.js": "/MY-PROFILE/static/js/main.796a9310.js",
     "static/media/MyHealthApp.png": "/MY-PROFILE/static/media/MyHealthApp.d22314e1a4f79d584e31.png",
     "static/media/DhammaApp.png": "/MY-PROFILE/static/media/DhammaApp.5b01ae971d4b23a0ae94.png",
     "static/media/ENGMMDictionaryApp.png": "/MY-PROFILE/static/media/ENGMMDictionaryApp.b80c190dc1eda3ef2380.png",
@@ -9,13 +9,13 @@
     "static/media/MMThetponeApp.png": "/MY-PROFILE/static/media/MMThetponeApp.e0ff04656796c6962380.png",
     "static/media/MMENGDictionaryApp.png": "/MY-PROFILE/static/media/MMENGDictionaryApp.6effae1091dea046b40a.png",
     "static/media/khun.jpg": "/MY-PROFILE/static/media/khun.a0d3dc9f950b9beddb6b.jpg",
-    "static/media/KHUN_AUNG_RESUME.pdf": "/MY-PROFILE/static/media/KHUN_AUNG_RESUME.0defc7294970176345fa.pdf",
+    "static/media/KHUN_AUNG_RESUME.pdf": "/MY-PROFILE/static/media/KHUN_AUNG_RESUME.21f71b824deadaed5003.pdf",
     "index.html": "/MY-PROFILE/index.html",
-    "main.71d05dd5.css.map": "/MY-PROFILE/static/css/main.71d05dd5.css.map",
-    "main.a25e4412.js.map": "/MY-PROFILE/static/js/main.a25e4412.js.map"
+    "main.caaa476c.css.map": "/MY-PROFILE/static/css/main.caaa476c.css.map",
+    "main.796a9310.js.map": "/MY-PROFILE/static/js/main.796a9310.js.map"
   },
   "entrypoints": [
-    "static/css/main.71d05dd5.css",
-    "static/js/main.a25e4412.js"
+    "static/css/main.caaa476c.css",
+    "static/js/main.796a9310.js"
   ]
 }
