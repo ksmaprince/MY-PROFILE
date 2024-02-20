@@ -3,7 +3,7 @@ import Lottie from  "lottie-react";
 import Typed from "./Typed.js";
 import Skills from './Skills.js';
 import Tilt from 'react-parallax-tilt';
-import Khun from '../images/khun.jpg'
+import Khun from '../images/khun.png'
 import CoderGuy from '../LottieFiles/coder-man2.json'
 import CoderBoy from '../LottieFiles/coderboy.json'
 import { ImPointRight } from "react-icons/im";
