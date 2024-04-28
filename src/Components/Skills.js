@@ -1,5 +1,4 @@
 import React from 'react'; 
-import { CgCPlusPlus } from "react-icons/cg";
 import {FaReact, FaGitAlt, FaGithub, FaNpm, FaFigma,FaBootstrap, FaJava} from "react-icons/fa";
 import {DiNodejs, DiJavascript1} from "react-icons/di";
 import {SiFirebase,SiJetpackcompose, 

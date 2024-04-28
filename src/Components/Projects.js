@@ -41,16 +41,16 @@ const Projects = () => {
           </p><br/>
           <p>
           <b>KBZConnect</b>: Mobile App that allows the bank customer to search the nearby branches and ATM locations and currency exchange rates.
-          <a className="Link" href='https://play.google.com/store/apps/details?id=com.kbzbank.kbzconnect&hl=en_US&gl=US' target='_blank'> See on Google Play</a>
+          <a className="Link" href='https://play.google.com/store/apps/details?id=com.kbzbank.kbzconnect&hl=en_US&gl=US' > See on Google Play</a>
           
           </p><br/>
           <p>
           <b>mBanking</b>: A banking app that allows the user to view account balances & transactions, transfer money, and pay bills from the mobile device, etc.
-          <a className="Link" href='https://play.google.com/store/apps/details?id=com.ofss.fcdb.mobile.android.phone.kbz.launcher&hl=en_US&gl=US' target='_blank'> See on Google Play</a>
+          <a className="Link" href='https://play.google.com/store/apps/details?id=com.ofss.fcdb.mobile.android.phone.kbz.launcher&hl=en_US&gl=US' > See on Google Play</a>
           </p>
           <p>
           <b>KBZ Pay</b>:A mobile wallet app along with banking functions that is simple and convenient to transact money in Myanmar. I was responsible for deploying the app to the Play Store, Xiaomi, Huawei, and the internal app server.
-          <a className="Link" href='https://play.google.com/store/apps/details?id=com.kbzbank.kpaycustomer&hl=en_US&gl=US' target='_blank'> See on Google Play</a>
+          <a className="Link" href='https://play.google.com/store/apps/details?id=com.kbzbank.kpaycustomer&hl=en_US&gl=US' > See on Google Play</a>
           
           </p><br/>
         </div>
@@ -108,22 +108,22 @@ Clean Architecture, Jetpack Libraries, Git, Bitbucket, Jira
         <div className='RecentWorkText'>
           <p>
           <b>MovieVault</b> : A native android application using Jetpack Compose for UI development. This app serves the interface for user to register, log in, browse movie collections, watch movie trailers, and save their favorites. Utilized Kotlin, Jetpack Compose, MVVM, Retrofit, Coroutine, Hilt, Navigation Graph, Android Studio. 
-          <a className = "Link" href='https://github.com/ksmaprince/MovieValut' target='_blank'> See on Github.</a>
+          <a className = "Link" href='https://github.com/ksmaprince/MovieValut' > See on Github.</a>
            <br/><br/>
            <b>Movie-Vault-WebApp</b>: A RESTful API web application, serve as a backend for Movie-Vault project, capable of efficiently storing, retrieving and processing both movie and user information. Utilized Java, Spring Boot, Spring Security, Spring Data JPA, Lombok, MySQL, Azure, AWS, IntelliJ.
-          <a className="Link" href='https://github.com/ksmaprince/MovieValut-WebServices' target='_blank'> See on Github</a>
+          <a className="Link" href='https://github.com/ksmaprince/MovieValut-WebServices' > See on Github</a>
           <br/><br/>
           <b>Library Management System</b>: A desktop application that can manage the daily functions of a library. I was a team leader in this project. I prepared the project documents and developed desktop UI screens. 
-          <a className="Link" href='https://github.com/ksmaprince/LibraryMangementSystem' target='_blank'> See on Github</a>
+          <a className="Link" href='https://github.com/ksmaprince/LibraryMangementSystem' > See on Github</a>
           <br/><br/>
           <b>Case Management System</b>: A web application for the lawyer. Working with a team, I was a backend developer in this project, developing the backend webservice APIs. 
-          <a className="Link" href='https://github.com/ksmaprince/CaseManagementSystem' target='_blank'> See on Github</a>
+          <a className="Link" href='https://github.com/ksmaprince/CaseManagementSystem' > See on Github</a>
           <br/><br/>
           <b>Product Management System</b>: A CRUD Web application project to manage product stock. Working with a team. I was a front-end developer and developed web page screens. 
-          <a className="Link" href='https://github.com/ksmaprince/Product-Management-System' target='_blank'> See on Github</a>
+          <a className="Link" href='https://github.com/ksmaprince/Product-Management-System' > See on Github</a>
           <br/><br/>
           <b>Restaurant Management System</b>: A hybrid mobile application project using React Native Technology. It can be installed on Android and iOS mobile devices. I was a team leader and worked both front-end and back-end. In front-end I developed mobile screens user interface (UI) using React Native framework, Figma for UI/UX. I also developed the backend web service API for the project using NodeJS, MongoDB and Firebase. 
-          <a className="Link" href='https://github.com/ksmaprince/Restaurant-Management-App' target='_blank'> See on Github</a>
+          <a className="Link" href='https://github.com/ksmaprince/Restaurant-Management-App'> See on Github</a>
           <br/>
           </p>
         </div>
