@@ -22,11 +22,6 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     MyHealthPlayStore: "https://play.google.com/store/apps/details?id=com.peteaung.myhealth"
 
   }
-
-  let show ='';
-  if(desc[projectName + 'Github']===""){
-    show="none";
-  }
     
   return (
     <div className='projectBox'> 
