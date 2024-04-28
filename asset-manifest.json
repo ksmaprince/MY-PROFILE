@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MY-PROFILE/static/css/main.5c086605.css",
-    "main.js": "/MY-PROFILE/static/js/main.a7ce8077.js",
+    "main.js": "/MY-PROFILE/static/js/main.bed5589d.js",
     "static/media/MyHealthApp.png": "/MY-PROFILE/static/media/MyHealthApp.d22314e1a4f79d584e31.png",
     "static/media/DhammaApp.png": "/MY-PROFILE/static/media/DhammaApp.5b01ae971d4b23a0ae94.png",
     "static/media/ENGMMDictionaryApp.png": "/MY-PROFILE/static/media/ENGMMDictionaryApp.b80c190dc1eda3ef2380.png",
@@ -12,10 +12,10 @@
     "static/media/KHUN_AUNG_RESUME.pdf": "/MY-PROFILE/static/media/KHUN_AUNG_RESUME.0bfdc3855a54784f6b35.pdf",
     "index.html": "/MY-PROFILE/index.html",
     "main.5c086605.css.map": "/MY-PROFILE/static/css/main.5c086605.css.map",
-    "main.a7ce8077.js.map": "/MY-PROFILE/static/js/main.a7ce8077.js.map"
+    "main.bed5589d.js.map": "/MY-PROFILE/static/js/main.bed5589d.js.map"
   },
   "entrypoints": [
     "static/css/main.5c086605.css",
-    "static/js/main.a7ce8077.js"
+    "static/js/main.bed5589d.js"
   ]
 }
