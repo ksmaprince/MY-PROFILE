@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MY-PROFILE/static/css/main.5c086605.css",
-    "main.js": "/MY-PROFILE/static/js/main.bed5589d.js",
+    "main.js": "/MY-PROFILE/static/js/main.8e5e00dd.js",
     "static/media/MyHealthApp.png": "/MY-PROFILE/static/media/MyHealthApp.d22314e1a4f79d584e31.png",
     "static/media/DhammaApp.png": "/MY-PROFILE/static/media/DhammaApp.5b01ae971d4b23a0ae94.png",
     "static/media/ENGMMDictionaryApp.png": "/MY-PROFILE/static/media/ENGMMDictionaryApp.b80c190dc1eda3ef2380.png",
@@ -9,13 +9,13 @@
     "static/media/MMThetponeApp.png": "/MY-PROFILE/static/media/MMThetponeApp.e0ff04656796c6962380.png",
     "static/media/khun.png": "/MY-PROFILE/static/media/khun.ec29a73bf076d4ba6590.png",
     "static/media/MMENGDictionaryApp.png": "/MY-PROFILE/static/media/MMENGDictionaryApp.6effae1091dea046b40a.png",
-    "static/media/KHUN_AUNG_RESUME.pdf": "/MY-PROFILE/static/media/KHUN_AUNG_RESUME.0bfdc3855a54784f6b35.pdf",
+    "static/media/KHUN_AUNG_RESUME.pdf": "/MY-PROFILE/static/media/KHUN_AUNG_RESUME.9c9a8578884d2374b20f.pdf",
     "index.html": "/MY-PROFILE/index.html",
     "main.5c086605.css.map": "/MY-PROFILE/static/css/main.5c086605.css.map",
-    "main.bed5589d.js.map": "/MY-PROFILE/static/js/main.bed5589d.js.map"
+    "main.8e5e00dd.js.map": "/MY-PROFILE/static/js/main.8e5e00dd.js.map"
   },
   "entrypoints": [
     "static/css/main.5c086605.css",
-    "static/js/main.bed5589d.js"
+    "static/js/main.8e5e00dd.js"
   ]
 }
