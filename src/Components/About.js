@@ -22,7 +22,7 @@ const About = () => {
           <p>
             Hi, my name is <b>KHUN AUNG</b> and I am from Fairfield, Iowa, USA.
             I'm a <b>Software Engineer (Android Developer)</b> and have completed on-campus studies and currently taking distance courses to complete a <b>Master's Degree in Computer Science</b>. <br/><br/>
-            I have <b>5 years of experiences</b> in developing Android Mobile Applications in financial industry.
+            I have <b>6 years of experiences</b> in developing Android Mobile Applications in financial industry.
             I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
             I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
           </p>
