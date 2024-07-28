@@ -13,7 +13,7 @@ const Footer = () => {
         <a href="https://github.com/ksmaprince/" ><FaGithub/></a>
         <a href="https://www.linkedin.com/in/khunsma/" ><FaLinkedin/></a>
         <a href='mailTo:khunaung.dev@gmail.com' ><GrMail/></a>
-        <a href="https://leetcode.com/petiaung50/" ><SiLeetcode/></a>
+        <a href="https://leetcode.com/khunsma/" ><SiLeetcode/></a>
         <a href="https://medium.com/@khunsoemoeaung" ><FaMedium/></a>
       </div>
     </footer>
